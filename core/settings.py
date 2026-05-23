@@ -40,10 +40,9 @@ INSTALLED_APPS = [
     'dashboard',
     'api',
     'rest_framework',
-    'channels',
+  
 ]
 
-ASGI_APPLICATION = "threatguard.asgi.application"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
